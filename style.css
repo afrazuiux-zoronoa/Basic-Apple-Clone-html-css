@@ -1,0 +1,330 @@
+@font-face {
+    font-family: iPhone-regular;
+    src: url(./Fonts/sf-pro-text_regular.woff2);
+}
+
+@font-face {
+    font-family: iPhone-semibold;
+    src: url(./Fonts/sf-pro-text_semibold.woff2);
+}
+
+@font-face {
+    font-family: iPhone-bold;
+    src: url(./Fonts/sf-pro-display_semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+nav {
+    width: 100%;
+    background-color: #ffffffd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+
+nav p {
+    font-family: iPhone-regular;
+    font-size: .8rem;
+}
+
+p i {
+    font-size: 1rem;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/Zoro\ x\ iphone\ 17\ pro.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-family: iPhone-bold;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3.6rem;
+    font-weight: 100;
+    background: linear-gradient(90deg, #0db672, #267656);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero h4 {
+    font-family: iPhone-regular;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.2rem;
+}
+
+.hero-btn button {
+    color: white;
+    font-size: 1rem;
+    font-family: iPhone-regular;
+    border: none;
+    background-color: #0071e3;
+    border-radius: 50px;
+    padding: .7rem 1.2rem;
+}
+
+.buy-btn {
+    border: 1px solid #0071e3 !important;
+    background-color: transparent !important;
+    color: #2997ff !important;
+    transition: all .3s ease;
+}
+
+.buy-btn:hover {
+    color: white !important;
+    background-color: #0071e3 !important;
+    cursor: pointer;
+}
+
+section {
+    margin: 1rem 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/hero_iphone_air__0gxyavihpiqu_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section .hero h1 {
+    color: #000000;
+}
+
+section .hero h4 {
+    color: #000000;
+}
+
+.container-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 1rem;
+}
+
+.container-1 .left {
+    width: 100%;
+    background-image: url(./Images/promo_iphone_17__bhofuohbsu3m_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-1 .left .hero h1 {
+    color: black;
+    font-size: 2.4rem;
+    margin-top: 25px;
+}
+
+.container-1 .left h4 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+.container-1 .left button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.container-1 .right {
+    width: 100%;
+    background-image: url(./Images/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-1 .right .hero h1 {
+    color: black;
+    font-size: 2.4rem;
+    margin-top: 25px;
+}
+
+.container-1 .right h4 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.container-1 .right button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.container-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.container-2 .left {
+    width: 100%;
+    background-image: url(./Images/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-2 .left .hero h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-2 .left .hero h1 span {
+    font-family: iPhone-regular;
+    margin-left: .6rem;
+}
+
+.container-2 .left h4 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+.container-2 .left button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.container-2 .right {
+    width: 100%;
+    background-image: url(./Images/promo_apple_watch_se_3__fz5y29qx5mmy_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-2 .right .hero h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-2 .right .hero h1 span {
+    font-family: iPhone-regular;
+    margin-left: .6rem;
+}
+
+.container-2 .right h4 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+.container-2 .right button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.container-3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.container-3 .left {
+    width: 100%;
+    background-image: url(./Images/promo_apple_watch_ultra3__bwvslhbxx99e_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-3 .left .hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-3 .left .hero h1 span {
+    font-family: iPhone-regular;
+    margin-left: .6rem;
+}
+
+.container-3 .left h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+.container-3 .left button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.container-3 .right {
+    width: 100%;
+    background-image: url(./Images/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-3 .right .hero h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-3 .right .hero h1 span {
+    font-family: iPhone-regular;
+    margin-left: .6rem;
+}
+
+.container-3 .right h4 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.container-3 .right button {
+    font-size: .8rem;
+    font-family: iPhone-semibold;
+}
+
+.learnmore-btn {
+   transition: all .3s ease;
+}
+.learnmore-btn:hover {
+    background-color:  #007cf9;
+}
